@@ -16,3 +16,5 @@ const MLModels: number[][] = [
 heros.push("spider man");
 yourNumber.push(123);
 allUser.push({ name: "tien", isActive: false });
+
+export {}
