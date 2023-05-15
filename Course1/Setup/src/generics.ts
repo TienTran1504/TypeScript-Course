@@ -83,4 +83,5 @@ class Sellable<T>{
     addToCart(product: T) {
         this.cart.push(product);
     }
+    
 }
