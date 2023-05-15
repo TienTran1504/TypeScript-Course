@@ -19,3 +19,12 @@ function createCourse() {
 }
 function createNewUser(user) {
 }
+createNewUser({ name: "", email: "", isActive: true });
+var myUser = {
+    _id: "1245",
+    name: "Tien",
+    email: "tien@123.com",
+    isActive: false,
+};
+// myUser._id = 123; Can't change
+myUser.name = "Nguyen Van a";
