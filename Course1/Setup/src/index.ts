@@ -52,3 +52,4 @@ class SubUser extends User{
 }
 const tien = new User("tien@gmail.com,", "tien", "tran");
 // tien.city = "HCM"; can't use this because readonly
+const newString = "1234";
