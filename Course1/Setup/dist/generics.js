@@ -24,3 +24,15 @@ class SubBottle {
 let subBottle = new SubBottle("abc", 1234);
 identityFour({ brand: "abc", type: 123 });
 identityFour(subBottle);
+function getSearchProducts2(products) {
+    return products;
+}
+function getSearchProducts(products) {
+    const myIndex = 3;
+    return products[myIndex];
+}
+const getMoreSearchProducts = (products) => {
+    // do some database operations
+    const myIndex = 4;
+    return products[myIndex];
+};

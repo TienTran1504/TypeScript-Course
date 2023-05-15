@@ -32,3 +32,18 @@ class SubBottle implements Bootle{
 let subBottle = new SubBottle("abc", 1234);
 identityFour<Bootle>({ brand: "abc", type: 123 });
 identityFour<Bootle>(subBottle);
+
+
+function getSearchProducts2<T>(products: T[]): T[] {
+    return products;
+}
+function getSearchProducts<T>(products: T[]): T {
+    const myIndex = 3;
+    return products[myIndex];
+}
+
+const getMoreSearchProducts = <T>(products: T[]): T => {
+    // do some database operations
+    const myIndex = 4;
+    return products[myIndex];
+}
