@@ -1,5 +1,5 @@
 "use strict";
-class TakePhoto {
+class TakePhoto2 {
     constructor(cameraMode, filter) {
         this.cameraMode = cameraMode;
         this.filter = filter;
@@ -9,7 +9,7 @@ class TakePhoto {
         return 8;
     }
 }
-class Instagram2 extends TakePhoto {
+class Instagram2 extends TakePhoto2 {
     constructor(cameraMode, filter, burst) {
         super(cameraMode, filter);
         this.cameraMode = cameraMode;
