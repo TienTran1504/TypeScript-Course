@@ -44,11 +44,11 @@ function isFish(pet) {
 }
 function getFood(pet) {
     if (isFish(pet)) {
-        pet;
+        pet; // cursor show (parameter) pet: Fish)
         return "fish food";
     }
     else {
-        pet;
+        pet; // cursor show (parameter) pet: Bird)
         return "bird food";
     }
 }
