@@ -12,4 +12,7 @@ userId = 33455.5;
 var userID = 123123.123;
 userID.toFixed();
 var isLoggedIn = false;
+
+
+
 //primitive variables: boolean, string, number
