@@ -38,5 +38,31 @@ class User {
         this._courseCount = courseNum;
     }
 }
+class SubUser extends User {
+    constructor() {
+        super(...arguments);
+        this.isFamily = true;
+    }
+    changeCourseCount() {
+        this._courseCount = 4;
+    }
+}
 const tien = new User("tien@gmail.com,", "tien", "tran");
-// tien.city = "HCM"; can't use this because readonly
+class Instagram {
+    constructor(cameraMode, filter, burst) {
+        this.cameraMode = cameraMode;
+        this.filter = filter;
+        this.burst = burst;
+    }
+}
+class Youtube {
+    constructor(cameraMode, filter, burst, short) {
+        this.cameraMode = cameraMode;
+        this.filter = filter;
+        this.burst = burst;
+        this.short = short;
+    }
+    createStory() {
+        console.log("Story was created");
+    }
+}
