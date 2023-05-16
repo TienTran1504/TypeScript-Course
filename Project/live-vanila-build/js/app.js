@@ -71,6 +71,7 @@ const App = {
             App.state.moves = [];
             App.$.squares.forEach(square => square.replaceChildren());
             App.$.modal.classList.add("hidden");
+
         })
 
         App.$.squares.forEach(square => {
