@@ -166,7 +166,7 @@ button:hover {
   opacity: 0.6;
 }
 
-/* Square */
+/* Square Game Board */
 .square {
   background-color: var(--gray);
   border-radius: 10px;
