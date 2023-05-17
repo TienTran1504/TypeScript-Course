@@ -68,15 +68,15 @@ export default class View {
      * DOM helper methods
      */
     #updateScoreboard(p1Wins, p2Wins, ties) {
-        this.$.p1Wins.innerText = `${p1Wins} wins`
-        this.$.p2Wins.innerText = `${p2Wins} wins`
-        this.$.ties.innerText = `${ties} wins`
+        this.$.p1Wins.textContent = `${p1Wins} wins`
+        this.$.p2Wins.textContent = `${p2Wins} wins`
+        this.$.ties.textContent = `${ties} ties`
 
     }
 
     #openModal(msg) {
         this.$.modal.classList.remove("hidden")
-        this.$.modalText.innerText = msg;
+        this.$.modalText.textContent = msg;
     }
 
     #closeAll() {
